@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.6.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_B52g4IaqEeOdEd__gB0nyg" name="IDS" targetNamespace="IDS_DOMAIN.ddm" namespaceSupported="true" contents="_EA6UAIaqEeOdEd__gB0nyg _O34dkIaqEeOdEd__gB0nyg _RpgQoIaqEeOdEd__gB0nyg _V0ZjwIaqEeOdEd__gB0nyg"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_EA6UAIaqEeOdEd__gB0nyg" name="TGV" label="Technisch gültig von" package="_B52g4IaqEeOdEd__gB0nyg" baseType="DATE"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_O34dkIaqEeOdEd__gB0nyg" name="TGB" label="Technisch gültig bis" package="_B52g4IaqEeOdEd__gB0nyg" baseType="DATE"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_RpgQoIaqEeOdEd__gB0nyg" name="FGV" label="Fachlich gültig von " package="_B52g4IaqEeOdEd__gB0nyg" baseType="DATE"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_V0ZjwIaqEeOdEd__gB0nyg" name="FGB" label="Fachlich gültig bis" package="_B52g4IaqEeOdEd__gB0nyg" baseType="DATE"/>
+</xmi:XMI>

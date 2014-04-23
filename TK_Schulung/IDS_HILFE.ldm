@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.6.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_BT0UQIatEeOdEd__gB0nyg" name="IDS_HILFE" targetNamespace="IDS_HILFE.ldm" contents="_EMP58IatEeOdEd__gB0nyg">
+    <eAnnotations xmi:id="_RQaT0IatEeOdEd__gB0nyg" source="container_partition_link"/>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Entity xmi:id="_EMP58IatEeOdEd__gB0nyg" name="Kunde_System_A" package="_BT0UQIatEeOdEd__gB0nyg">
+    <attributes xmi:id="_EMP58YatEeOdEd__gB0nyg" name="Kundennummer" label="Eindeutige Kundenzuordnungsnummer" dataType="CHAR(5)" required="true" abbreviation="Ident_Nr"/>
+    <attributes xmi:id="_EMP58oatEeOdEd__gB0nyg" name="Name" label="Nachname des Kunden" dataType="CHAR(5)"/>
+    <attributes xmi:id="_EMP584atEeOdEd__gB0nyg" name="Vorname" label="Vorname(n) des Kunden" dataType="CHAR(5)"/>
+    <attributes xmi:id="_EMP59IatEeOdEd__gB0nyg" name="Geschlecht" label="männlich/weiblich/unbekannt" dataType="CHAR(5)"/>
+    <attributes xmi:id="_EMP59YatEeOdEd__gB0nyg" name="Typ" label="Kundenkategoriesierung" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_EMP59oatEeOdEd__gB0nyg" name="Kunde_PK" attributes="_EMP58YatEeOdEd__gB0nyg"/>
+  </LogicalDataModel:Entity>
+</xmi:XMI>
